@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 2.8)
+PROJECT(IrrlichtCMake)
+
+SET(IrrlichtCMake_SOURCE_FILES main.cpp)
+
+ADD_EXECUTABLE(IrrlichtCMake ${IrrlichtCMake_SOURCE_FILES})
+TARGET_LINK_LIBRARIES(IrrlichtCMake ${IRRLICHT_LIBRARY}
+	${OPENGL_LIBRARIES} ${OSX_LIBRARIES})
+

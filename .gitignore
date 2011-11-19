@@ -1,0 +1,16 @@
+*~
+.DS_Store
+*.swp
+*~.nib
+
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+xcuserdata
+
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+
+bin/*
+
